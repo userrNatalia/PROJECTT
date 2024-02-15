@@ -12,7 +12,7 @@
             
             <header>Sign Up</header>
         
-        <form action="php/config.php" method="post">
+        <form action="database.php" method="post">
             <div class="field input">
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username" autocomplete="off" required>
