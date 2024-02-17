@@ -40,22 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error_message = "Invalid username or password";
     }
 }
-function is_username_wrong(array|bool $result){
-    if(!$result) {
-     return true;
-    }else{
-     return false;   
-    }
- }
- 
- // checks if password is wrong
- function is_password_wrong(string $pwd, string $hashedPwd){
-     if(!password_verify($pwd,$hashedPwd)) {
-      return true;
-     }else{
-      return false;   
-     }
-  }
+
 ?>
 
 
